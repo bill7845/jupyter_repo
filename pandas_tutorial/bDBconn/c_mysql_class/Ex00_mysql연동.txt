@@ -1,0 +1,39 @@
+    mysql 연동시 필요한 패키지 : mysqlclient
+    [ 콘솔에서 ] pip install mysqlclient
+
+            간혹 pip로 설치시 호환성이 안 맞거나 해서 설치 오류가 발생하면 직접 다운로드에서 설치해야 한다.
+            만일 mysqlclient 패키지 설치 실패라면
+            http://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+            파이썬 버전과 운영체제에 맞는 버전을 다운받아 mysqlclient‑1.4.2‑cp37‑cp37m‑win_amd64.whl
+            이 파일이 있는 위치에서
+            pip install mysqlclient‑1.4.2‑cp37‑cp37m‑win_amd64.whl 실행하여 설치한다.
+
+    [파이참에서 ] File -> settings -> Project -> Proejct Interpreter)에서 + 버튼 눌려서
+        mysqlclient을 install 해야 한다
+
+======================================================================
+[ mysql 실행 ]
+
+-- DB 생성  ( root 계정에서 실행 )
+create database pythondb;
+
+-- 사용할 DB 선택  ( scott 계정에서 실행 )
+use pythondb;
+
+-- 테이블 생성
+create table if not exists emp (
+    empno integer,
+    ename varchar(20),
+    job varchar(20),
+    mgr integer,
+    hiredate date,
+    sal float,
+    comm float,
+    deptno integer
+)
+
+-- 테이블 확인
+show tables;
+
+-- 테이블 구조 확인
+desc emp;

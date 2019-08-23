@@ -1,0 +1,33 @@
+1. sqlite3 소개
+
+SQLite는 별도의 DB 서버가 필요없이 DB 파일에 기초하여 데이타베이스 처리를 구현한 Embedded SQL DB 엔진이다.
+SQLite는 별도의 복잡한 서버 설치가 필요 없고, 쉽고 편리하게 사용할 수 있다는 점에서 널리 사용되고 있다.
+오늘날 대부분의 Mac OS X 나 리눅스에서는 SQLite을 기본적으로 내장하고 있지만,
+만약 시스템에 내장되어 있지 않는 경우는 http://www.sqlite.org 에서 다운받아 설치할 수 있다.
+
+SQLite는 기본적으로 SQLite DB 엔진과 "sqlite3" 라는 Command line tool 을 갖고 있다.
+
+다음은 sqlite3 커맨드 라인 툴을 사용하여 샘플 DB (test.db)를 만들고 customer 테이블을 생성하고,
+데이타를 INSERT/SELECT 해 본 예이다.
+"sqlite3 test.db" 명령문은 만약 test.db 파일이 있으면 해당 파일을 오픈하고,
+파일이 없으면 새 파일을 생성한다.
+
+    [ SQLite 특징 ]
+    - 파일 기반의 DBMS, 저메모리, 빠른 처리 속도
+    - 별도의 DB 서버가 없어도 쉽고 편리하게 사용 가능
+    - 안드로이드, 아이폰 등 스마트폰에 내장된 DB
+    - 표준 SQL 지원
+
+    [ SQLite에서 지원하지 않는 기능 확인 ]
+    - https://www.sqlite.org/omitted.html
+    - RIGHT and FULL OUTER JOIN 지원안됨 (-> left outer join은 가능함 )
+    - 그외 확인
+
+2. 설치 및 실행
+    -> 파이썬은 포함되어 있기에 별도 설치 필요없음
+
+    [ SQLite 클라이언트 툴 ]
+    - http://www.sqliteexpert.com > download
+    - SQLite Expert Personal 5.x (freeware)
+    - SQLite Expert Personal 64bit 다운로드
+    - 기본옵션으로 설치

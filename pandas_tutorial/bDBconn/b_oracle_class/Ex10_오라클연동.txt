@@ -1,0 +1,19 @@
+
+0. 오라클 서버 설치
+
+
+1. cx_Oracle 파이썬 패키지를 설치
+    1) Terminal 에서 > pip install cx_Oracle
+
+    2) pyCharm에서 설치 -> 최근 무료버전에서 안됨
+
+        (File -> settings -> Project -> Proejct Interpreter)에서 + 버튼 눌려서
+        cx-Oracle을 install 해야 한다
+        (cxOracle은 안됨)
+
+
+
+
+
+
+
