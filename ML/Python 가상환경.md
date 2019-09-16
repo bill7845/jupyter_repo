@@ -1,5 +1,10 @@
 ## 파이썬 가상환경 만들기 <br>
 
+* base => 3.6
+* new => 3.7
+
+<br> 
+
 - anaconda prompt
 
 <br>
