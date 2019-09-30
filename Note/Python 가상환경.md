@@ -21,3 +21,13 @@
 
 : base로 돌아가기
 - conda.bat activate base 
+
+<br>
+
+: 가상환경 목록 보기
+- conda info --envs
+
+<br>
+
+: 가상환경 삭제
+conda remove --name ~~가상환경 이름~~ --all
