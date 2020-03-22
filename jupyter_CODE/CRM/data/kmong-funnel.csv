@@ -1,0 +1,54 @@
+Lv2,viewid,viewid desc,Lv1,funnel name,funnel desc
+1100,home,홈 (탭),11,home,홈
+1210,category_list,카테고리 목록 (탭),12,category,카테고리
+1200,category_gig,카테고리-상품목록,12,category,카테고리
+1300,search,검색,13,search,검색
+1301,search_gig,검색-상품목록,13,search,검색
+1302,search_seller,검색-전문가,13,search,검색
+1400,gig_detail,상품상세,14,gig,상품
+1401,gig_detail_option,상품상세-상품선택,14,gig,상품
+1420,profile,전문가프로필,14,gig,상품
+1520,login_sns,간편로그인,15,login,로그인
+1500,login_email,간편로그인-이메일로그인,15,login,로그인
+1510,find_account,간편로그인-이메일로그인-아이디/비밀번호-찾기,15,login,로그인
+1600,inbox,메시지목록 (탭),16,inbox,메시지
+1610,inbox_detail,메시지목록-상세,16,inbox,메시지
+1611,inbox_detail_orderRequest,메시지목록-상세-결제요청,16,inbox,메시지
+1700,bookmarks_gig,메뉴목록-찜목록-서비스,17,bookmarks,찜하기
+1701,bookmarks_portfolio,메뉴목록-찜목록-포트폴리오,17,bookmarks,찜하기
+1801,order_addOption,상품상세-주문하기,18,order,결제
+1800,order_payment,상품상세-주문하기-결제하기,18,order,결제
+1810,kmongCash_charge,메뉴목록-크몽캐시-캐시충전하기,18,order,결제
+1900,thankyou,결제완료,19,thankyou,결제완료
+2000,signup,개인/기업-회원가입,20,new,신규등록
+2001,mobileAuth,휴대폰인증,20,new,신규등록
+2020,seller_gig_register,메뉴목록-서비스등록,20,new,신규등록
+2200,account_setting,메뉴목록-계정설정,22,account,계정관리 - 회원공통
+2210,account_setting_notification,메뉴목록-계정설정-알림설정,22,account,계정관리 - 회원공통
+2220,account_setting_AuthStatus,메뉴목록-계정설정-인증정보,22,account,계정관리 - 회원공통
+2230,account_setting_pwd,메뉴목록-계정설정-비밀번호 변경,22,account,계정관리 - 회원공통
+2240,account_setting_profile,메뉴목록-계정설정-프로필,22,account,계정관리 - 회원공통
+2320,seller_gig,메뉴목록-나의서비스,23,account_seller,계정관리 - 판매자
+2400,menu,메뉴목록 (탭),24,transaction_history,거래관리
+2410,buyer_order_track,메뉴목록-구매관리-거래메시지,24,transaction_history,거래관리
+2411,buyer_order_track_cancel,메뉴목록-구매관리-거래메시지-취소/문제해결,24,transaction_history,거래관리
+2412,buyer_order_track_cancel_submit,메뉴목록-구매관리-거래메시지-취소/문제해결-제출,24,transaction_history,거래관리
+2420,buyer_order_history,메뉴목록-구매관리,24,transaction_history,거래관리
+2421,buyer_coupon_history,메뉴목록-쿠폰내역,24,transaction_history,거래관리
+2430,seller_selling_history,메뉴목록-판매관리,24,transaction_history,거래관리
+2431,seller_mileage_history,메뉴목록-마일리지 내역,24,transaction_history,거래관리
+2432,seller_profits_history,메뉴목록-수익관리,24,transaction_history,거래관리
+2450,buyer_payment_history,메뉴목록-결제내역,24,transaction_history,거래관리
+2451,kmongCash_history,메뉴목록-크몽캐시,24,transaction_history,거래관리
+2452,kmongCash_history_refundRequest,메뉴목록-크몽캐시-캐시환불,24,transaction_history,거래관리
+2510,about_howToUse,메뉴목록-크몽이용방법,25,info,소개 및 안내
+2520,termsOfService,메인하단-이용약관,25,info,소개 및 안내
+2521,privacyPolicy,메인하단-개인정보처리방침,25,info,소개 및 안내
+2530,tutorial,튜토리얼,25,info,소개 및 안내
+2700,referrerProgram,메뉴목록-친구초대,27,referral_program,친구초대프로그램
+2800,event,이벤트,28,event,이벤트프로모션
+3010,kmongNotification,메뉴목록-크몽안내,30,notification,알림
+3011,kmongNotification_detail,메뉴목록-크몽안내-상세,30,notification,알림
+3000,notification,알림-알림,30,notification,알림
+3001,notification_detail,알림-알림-상세,30,notification,알림
+9910,NPS,NPS,99,others,기타
