@@ -1,0 +1,5 @@
+pandas==0.25.1
+streamlit==0.57.3
+numpy==1.15.4
+sklearn==0.22.2.post1
+konlpy==0.5.1
